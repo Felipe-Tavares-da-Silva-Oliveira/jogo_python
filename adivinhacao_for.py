@@ -25,6 +25,7 @@ for rodada in  range(1, total_de_tentativas):
 
     chute_str = input("Digite o seu numero:  ")
 
+
     chute = int(chute_str)
     if(int(chute_str) < 1) or (chute > 100):
         print('numero invalido  - o número deve estar entre 1 e 100')
